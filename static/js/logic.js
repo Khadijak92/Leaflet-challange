@@ -22,7 +22,7 @@ d3.json(url).then(function (data) {
       return {
         weight: 1,
         color: 'black',
-        radius: mag * 2,
+        radius: mag * 4,
         fillOpacity: .65,
         fillColor:
           depth < 10 ? 'green' :
